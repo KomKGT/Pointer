@@ -20,7 +20,7 @@ int main()
 	recieverCHAR((int*)buff); 			//char
 	recieverCHAR((int*)ptr); 			//char
 	
-	recieverNUM((int*)iptr); 			//num
-	recieverNUM(&Value);				//same top		
+	recieverNUM((int*)iptr); 			//num ใช้แบบนี้ได้
+	recieverNUM(&Value);				//same top แบบนี้ก็ได้ เหมือนกัน		
 	
 }
